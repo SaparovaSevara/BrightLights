@@ -1,0 +1,107 @@
+.brights {
+
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto
+}
+
+.image-container {
+  position: absolute;
+  bottom: -150px;
+}
+
+.width__card {
+  position: relative;
+  width: 350px;
+  height: 300px;
+}
+
+
+.brights__card {
+  background-color: rgb(156, 156, 249, 0.4);
+  position: absolute;
+  bottom: 0;
+}
+
+input[type="range"] {
+  appearance: none;
+  height: 2px;
+  background-image: linear-gradient(#7a66cc, #7a66cc);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+::-webkit-slider-thumb {
+  appearance: none;
+  background-color: #7a66cc;
+  width: 2px;
+  height: 20px;
+  cursor: ew-resize;
+}
+::-moz-range-thumb {
+  appearance: none;
+  background-color: #7a66cc;
+  width: 2px;
+  height: 20px;
+  cursor: ew-resize;
+}
+::-ms-thumb {
+  appearance: none;
+  background-color: #7a66cc;
+  width: 2px;
+  height: 20px;
+  cursor: ew-resize;
+}
+::-webkit-slider-runnable-track {
+  appearance: none;
+  background: transparent;
+}
+::-moz-range-track {
+  appearance: none;
+  background: transparent;
+}
+::-ms-track {
+  appearance: none;
+  background: transparent;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 27px;
+}
+
+.play-btn {
+  background-color: transparent;
+  min-width: 22px;
+  height: 25px;
+  cursor: pointer;
+
+}
+
+.play-btn-img {
+    width: 100%;
+    height: 100%;
+  }
+.play-progress {
+  width: 100%;
+  margin: 0 45px;
+}
+.play-time {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+  min-width: 110px;
+}
