@@ -107,7 +107,7 @@ input[type="range"] {
 
 .image-container {
   position: absolute;
-  bottom: -180px;
+  bottom: -280px;
 }
 
 .music-desc__card {
@@ -156,3 +156,13 @@ input[type="range"] {
 /* -----------bright tickets start-------------------- */
 
 /* -----------bright tickets end-------------------- */
+
+
+/* -------------------Footer start---------------- */
+.footer-icons{
+
+
+}
+
+
+/* -------------------Footer end---------------- */
