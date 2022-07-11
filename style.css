@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@600&display=swap');
 
+/* ------------Header start--------------- */
 
 .brights {
 
@@ -17,24 +18,6 @@
  
 }
 
-.image-container {
-  position: absolute;
-  bottom: -180px;
-}
-
-.music-desc__card {
-  position: relative;
-
-}
-
-
-.brights__card {
-  background-color: rgb(156, 156, 249, 0.4);
-  position: absolute;
-  bottom: 0;
- height: 90px;
- width: 350px;
-}
 
 input[type="range"] {
   appearance: none;
@@ -52,6 +35,7 @@ input[type="range"] {
   height: 20px;
   cursor: ew-resize;
 }
+
 ::-moz-range-thumb {
   appearance: none;
   background-color: #7a66cc;
@@ -59,6 +43,7 @@ input[type="range"] {
   height: 20px;
   cursor: ew-resize;
 }
+
 ::-ms-thumb {
   appearance: none;
   background-color: #7a66cc;
@@ -66,14 +51,17 @@ input[type="range"] {
   height: 20px;
   cursor: ew-resize;
 }
+
 ::-webkit-slider-runnable-track {
   appearance: none;
   background: transparent;
 }
+
 ::-moz-range-track {
   appearance: none;
   background: transparent;
 }
+
 ::-ms-track {
   appearance: none;
   background: transparent;
@@ -91,17 +79,18 @@ input[type="range"] {
   min-width: 22px;
   height: 25px;
   cursor: pointer;
-
 }
 
 .play-btn-img {
     width: 100%;
     height: 100%;
   }
+
 .play-progress {
   width: 100%;
   margin: 0 45px;
 }
+
 .play-time {
   font-family: "Poppins", sans-serif;
   color: white;
@@ -111,15 +100,59 @@ input[type="range"] {
   min-width: 110px;
 }
 
+/* ------------Header end--------------- */
+
+
+/* --------------all__album start-------------- */
+
+.image-container {
+  position: absolute;
+  bottom: -180px;
+}
+
+.music-desc__card {
+  position: relative;
+
+}
+
+.brights__card {
+  background-color: rgb(156, 156, 249, 0.4);
+  position: absolute;
+  bottom: 0;
+ height: 90px;
+ width: 350px;
+}
+/* --------------all__album end-------------- */
+
+
+/* ---------------brights-lights-info start------------ */
 .brights-right-info-img1{
   position:absolute;
   width: 350px ;
-  margin-left: 20px;
-
 }
+
 .brights-right-info-img2{
- 
-  margin-top: 20%;
   width: 350px ;
-
 }
+
+
+/* ---------------brights-lights-info end------------ */
+
+
+/* ------------brights-gallery start------------ */
+
+
+
+.place-img-layout {
+ margin-top: 105px;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 1;
+  right: 610px;
+  justify-content: flex-end;
+}
+/* ------------brights-gallery end------------ */
+
+/* -----------bright tickets start-------------------- */
+
+/* -----------bright tickets end-------------------- */
