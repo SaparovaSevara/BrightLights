@@ -105,6 +105,9 @@ input[type="range"] {
 
 /* --------------all__album start-------------- */
 
+.all__album {
+ margin-top: -150px;
+}
 .image-container {
   position: absolute;
   bottom: -280px;
@@ -154,6 +157,19 @@ input[type="range"] {
 /* ------------brights-gallery end------------ */
 
 /* -----------bright tickets start-------------------- */
+
+
+.brights-tickets-card{
+  width: 98%;
+  padding-right: 0 !important;
+
+}
+.brights-tickets-card:hover{
+  width: 100%;
+  padding-right: 0 !important;
+
+}
+
 
 /* -----------bright tickets end-------------------- */
 
