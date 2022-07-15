@@ -118,12 +118,14 @@ input[type="range"] {
 
 }
 
+
+
 .brights__card {
   background-color: rgb(156, 156, 249, 0.4);
   position: absolute;
   bottom: 0;
- height: 90px;
- width: 350px;
+  height: 90px;
+  width: 350px;
 }
 /* --------------all__album end-------------- */
 
@@ -145,15 +147,56 @@ input[type="range"] {
 /* ------------brights-gallery start------------ */
 
 
+.gallery-img{
+  height: 500px;
+  width: 255px;
+}
+
+
+.img-layout {
+    position: absolute;
+    width: 17%;
+    height: 500px;
+    z-index: 10;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.img-layout1 {
+   width: 17%;
+  height: 500px;
+}
+
+.img-layout2 {
+  width: 17%;
+ height: 236px;
+}
+
+.img-layout3 {
+  width: 17%;
+ height: 500px;
+}
+
+.img-layout3 {
+  width: 98.5%;
+ height: 236px;
+}
+
+.img-layout:hover {
+   background-color: rgba(0, 0, 0, .3);
+
+}
 
 .place-img-layout {
- margin-top: 105px;
-  position: absolute;
-  border-radius: 10px;
-  z-index: 1;
-  right: 610px;
-  justify-content: flex-end;
-}
+  margin-top: 105px;
+   position: absolute;
+   border-radius: 10px;
+   z-index: 1;
+   
+    text-align: center;
+   justify-content: flex-end;
+ }
+ 
 /* ------------brights-gallery end------------ */
 
 /* -----------bright tickets start-------------------- */
@@ -195,13 +238,6 @@ input[type="range"] {
   -webkit-align-items: center;
   align-items: center;
 }
-
-/* .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 
 /* ------------brights-tickets end------------- */
 
