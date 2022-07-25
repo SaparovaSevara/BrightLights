@@ -125,12 +125,13 @@ input[type="range"] {
 
 /* ---------------brights-lights-info start------------ */
 .brights-right-info-img1 {
-  position: absolute;
-  width: 350px;
+  position: relative;
+  width: 300px;
+
 }
 
 .brights-right-info-img2 {
-  width: 350px;
+  width: 300px;
 }
 
 /* ---------------brights-lights-info end------------ */
@@ -292,6 +293,18 @@ input[type="range"] {
     height: 90px;
     width: 100%;
   }
+
+  
+.last-tracks{
+  position: relative;
+}
+.last-tracks-img{
+  position: absolute;
+}
+.last-traks-tex{
+  position: relative;
+}
+
 }
 @media (max-width: 1031px)  {
   .navbar a{
@@ -417,6 +430,15 @@ display: none;
   display: none;
 }
 
+.last-tracks{
+  position: relative;
+}
+.last-tracks-img{
+  position: absolute;
+}
+.last-traks-tex{
+  position: relative;
+}
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -506,6 +528,16 @@ display: none;
 .brights-gallery {
   display: none;
 }
+
+.last-tracks{
+  position: relative;
+}
+.last-tracks-img{
+  position: absolute;
+}
+.last-traks-tex{
+  position: relative;
+}
 }
 
 @media (max-width: 575px) and (min-width: 400px) {
@@ -593,6 +625,16 @@ display: none;
   .brights-gallery {
     display: none;
   }
+
+  .last-tracks{
+    position: relative;
+  }
+  .last-tracks-img{
+    position: absolute;
+  }
+  .last-traks-tex{
+    position: relative;
+  }
 }
 @media (max-width: 495px) and (min-width: 400px) {
   .wrapper {
@@ -628,6 +670,15 @@ display: none;
   margin-top: 200px;
 }
 
+.last-tracks{
+  position: relative;
+}
+.last-tracks-img{
+  position: absolute;
+}
+.last-traks-tex{
+  position: relative;
+}
 }
 
 @media (max-width: 399px) {
@@ -717,6 +768,16 @@ display: none;
   display: none;
 }
 
+
+.last-tracks{
+  position: relative;
+}
+.last-tracks-img{
+  position: absolute;
+}
+.last-traks-tex{
+  position: relative;
+}
 }
 
 
