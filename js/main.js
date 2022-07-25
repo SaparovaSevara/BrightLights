@@ -1,15 +1,15 @@
 // firstSwipper
 
-let firstSwiper = new Swiper(".secondSwiper", {
-  slidesPerView: 1,
-  speed: 400,
-  direction: "horizontal",
-  // spaceBetween: 20,
-  navigation: {
-    nextEl: ".firstSwiper-button-next",
-    prevEl: ".firstSwiper-button-prev",
-  },
-});
+// let firstSwiper = new Swiper(".secondSwiper", {
+//   slidesPerView: 1,
+//   speed: 400,
+//   direction: "horizontal",
+//   // spaceBetween: 20,
+//   navigation: {
+//     nextEl: ".firstSwiper-button-next",
+//     prevEl: ".firstSwiper-button-prev",
+//   },
+// });
 
 // Swipper
 
@@ -22,6 +22,19 @@ let swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    400: {
+      slidesPerView: 1
+   },
+    600: {
+       slidesPerView: 2
+    },
+    900: {
+       slidesPerView: 3
+    }
+    
+
+    }
 });
 
 // play audio
